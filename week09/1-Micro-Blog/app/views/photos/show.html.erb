@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <%= image_tag(@photo.url) %>
+</p>
+<p>
+  <strong>Url:</strong>
+  <%= link_to @photo.name, @photo.url %>
+  <!--<a href="<%=@photo.url%>"><%= @photo.name %></a>-->
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

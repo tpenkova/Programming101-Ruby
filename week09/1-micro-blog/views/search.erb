@@ -1,0 +1,20 @@
+<h1> Search results for <%= @tag %></h1>
+<% if @posts.empty? %>
+  <p>
+    No results found.
+  </p>
+<% else %>
+  <% @posts.reverse.each do |post| %>
+    <h2><a href="<%= post.id %>"><%= post.title %></a></h2>
+    <p>
+      <%= post.content %>
+    </p>
+    <p>
+      <form method="post" action="/<%= post.id %>">
+        <input name="_method" type="hidden" value="delete" />
+        <input type="submit" value="Delete Post" />
+      </form>
+    </p>
+    <hr />
+  <% end %>
+<% end %>

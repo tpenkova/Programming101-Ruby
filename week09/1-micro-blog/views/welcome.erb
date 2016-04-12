@@ -1,0 +1,17 @@
+<% if @blog.count.zero? %>
+  <p>Sorry, there are no posts yet. Please come back later!</p>
+<% else %>
+  <% @blog.reverse_each do |post| %>
+    <h2><a href="<%= post.id %>"><%= post.title %></a></h2>
+    <p>
+      <%= post.content %>
+    </p>
+    <p>
+      <form method="post" action="/<%= post.id %>">
+        <input name="_method" type="hidden" value="delete" />
+        <input type="submit" value="Delete Post" />
+      </form>
+    </p>
+    <hr />
+  <% end %>
+<% end %>

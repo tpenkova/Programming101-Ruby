@@ -1,0 +1,5 @@
+<h2>Edit Solutions</h2>
+
+<%= form_for @solution, method: :patch, url: lecture_task_dolution_path(@lecture, @task, @solution) do |f| %>
+	<%= render @solution, f: f %>
+<% end %>

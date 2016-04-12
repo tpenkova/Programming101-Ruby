@@ -1,0 +1,7 @@
+<h2>Edit Lecture</h2>
+
+<%= form_for @lecture, method: :patch, url: lecture_path(@lecture) do |f| %>
+    <%= render @lecture, f: f %>
+<% end %>
+
+<%= link_to "Destroy", @lecture, method: :delete %>

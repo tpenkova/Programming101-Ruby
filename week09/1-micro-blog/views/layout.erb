@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= @blog_title %></title>
+    <link href="/css/app.css" rel="stylesheet" media="screen" />
+  </head>
+  <body>
+    <header>
+      <h1><%= @blog_title %></h1>
+      <h3><em><%= @blog_description %></em></h3>
+      <hr />
+    </header>
+    <nav>
+      <a href="/">Home</a> | <a href="/new">New Post</a>
+      <form method="get" action="/search" style="display: inline">
+        <input type="text" name="tag" placeholder="... search term" />
+        <input type="submit" value="Search" />
+      </form>
+    </nav>
+    <div id="content">
+      <%= yield %>
+    </div>
+    <footer>
+      &copy; <%= @blog_title %> 2016 All rights reserved.
+    </footer>
+  </body>
+</html>

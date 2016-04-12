@@ -1,0 +1,1785 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 19:32:45 +0200
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (67.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (194.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 19:32:45 +0200
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.1ms)
+  [1m[36m (102.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (111.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateLecture (20160227101024)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "lectures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "body" text, "name" varchar) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160227101024"]]
+  [1m[35m (79.4ms)[0m  commit transaction
+Migrating to CreateTask (20160227110647)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar NOT NULL, "description" text NOT NULL, "lecture_id" integer NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mCREATE  INDEX "index_tasks_on_lecture_id" ON "tasks" ("lecture_id")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160227110647"]]
+  [1m[36m (74.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tasks_on_lecture_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tasks_on_lecture_id' AND type='index'
+[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-01 19:33:20 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 19ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2016-03-01 19:33:25 +0200
+
+ActionController::RoutingError (No route matches [GET] "/tasks"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (42.6ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 19:33:34 +0200
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"
+  Rendered lectures/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1008ms (Views: 1000.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-01 19:33:35 +0200
+
+
+Started GET "/lectures/new" for 127.0.0.1 at 2016-03-01 19:33:42 +0200
+Processing by LecturesController#new as HTML
+  Rendered lectures/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 33ms (Views: 29.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/lectures" for 127.0.0.1 at 2016-03-01 19:33:50 +0200
+Processing by LecturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YgOqDxvFDIQ05CVlKQ8VwRoddQbMZU007Ge5YEs46sQg6qLVs9s87iNYLFnN5WRf+t/Tt15KQE83ixejicoeIg==", "lecture"=>{"name"=>"New lecture", "body"=>"bodyddddd"}, "commit"=>"Create Lecture"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "lectures" ("name", "body") VALUES (?, ?)  [["name", "New lecture"], ["body", "bodyddddd"]]
+  [1m[36m (96.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/lectures
+Completed 302 Found in 105ms (ActiveRecord: 96.4ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 19:33:50 +0200
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"
+  Rendered lectures/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/1/tasks" for 127.0.0.1 at 2016-03-01 19:33:57 +0200
+Processing by TasksController#index as HTML
+  Parameters: {"lecture_id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?  [["lecture_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 48ms (Views: 19.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/lectures/1/tasks/new" for 127.0.0.1 at 2016-03-01 19:33:58 +0200
+Processing by TasksController#new as HTML
+  Parameters: {"lecture_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tasks/_task.html.erb (2.4ms)
+  Rendered tasks/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 23ms (Views: 17.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/lectures/1/tasks" for 127.0.0.1 at 2016-03-01 19:34:02 +0200
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pKMD8s2WtAfgeUfLq5Uzk/78xWRSdlD6j/4u8MSczCTmSgsoZYiEbffFTvdPf0INHj5j1cBZXYFUEoAzBm44wg==", "task"=>{"name"=>"aassas", "description"=>"asassas"}, "commit"=>"Create Task", "lecture_id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "tasks" ("name", "description", "lecture_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "aassas"], ["description", "asassas"], ["lecture_id", 1], ["created_at", "2016-03-01 17:34:02.442615"], ["updated_at", "2016-03-01 17:34:02.442615"]]
+  [1m[36m (153.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/lectures/1/tasks
+Completed 302 Found in 173ms (ActiveRecord: 154.6ms)
+
+
+Started GET "/lectures/1/tasks" for 127.0.0.1 at 2016-03-01 19:34:02 +0200
+Processing by TasksController#index as HTML
+  Parameters: {"lecture_id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?[0m  [["lecture_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/lectures/1/tasks/1/edit" for 127.0.0.1 at 2016-03-01 19:51:58 +0200
+Processing by TasksController#edit as HTML
+  Parameters: {"lecture_id"=>"1", "id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  Rendered tasks/_task.html.erb (3.5ms)
+  Rendered tasks/edit.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/lectures/1/tasks/1" for 127.0.0.1 at 2016-03-01 19:52:17 +0200
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eI7BQdkP5UxtGEZ2vUaO/q4wJhpg6X5UdGXy77uekts6Z8mbcRHVJnqkT0pZrP9gTvKAq/LGcy+viVwseWxmPQ==", "task"=>{"name"=>"Updated", "description"=>"This is new description!"}, "commit"=>"Update Task", "lecture_id"=>"1", "id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "tasks" SET "name" = ?, "description" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["name", "Updated"], ["description", "This is new description!"], ["updated_at", "2016-03-01 17:52:17.932536"], ["id", 1]]
+  [1m[35m (186.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/lectures/1/tasks
+Completed 302 Found in 194ms (ActiveRecord: 187.4ms)
+
+
+Started GET "/lectures/1/tasks" for 127.0.0.1 at 2016-03-01 19:52:18 +0200
+Processing by TasksController#index as HTML
+  Parameters: {"lecture_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?  [["lecture_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/1/tasks/1" for 127.0.0.1 at 2016-03-01 19:58:58 +0200
+
+AbstractController::ActionNotFound (The action 'show' could not be found for TasksController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.4ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:19:44 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.4ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (17.1ms)
+Completed 500 Internal Server Error in 61ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x00000005d84e38>):
+    1: <%= lecture %>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_48919680'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.1ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:27 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (19.3ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x000000059427d0>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.2ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:28 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x0000000551fc20>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.0ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:29 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (17.8ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x00000004f56078>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.1ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:30 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (15.5ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x0000000292a8b8>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.3ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:30 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x00000005a7bf70>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.8ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:30 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (10.7ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x0000000560b288>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.8ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:30 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x00000004f14b00>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.9ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:21:31 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x00000005d8d268>:0x00000005d7e060>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_46795200'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.4ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:23:13 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined local variable or method `lecture' for #<#<Class:0x000000055870a0>:0x00000005578528>):
+    1: <p> <% lecture %> </p>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_44797440'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.5ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:23:27 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 257ms (Views: 255.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:24:20 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (Missing partial lectures/_lecture with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/tanyap/Desktop/course-master/app/views"
+):
+    1: <%= render @lecture %>
+  app/views/lectures/show.html.erb:1:in `_app_views_lectures_show_html_erb__1451216502770398521_70200887506520'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.1ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:24:48 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-01 20:24:48 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-01 20:24:48 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-01 20:24:48 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-01 20:24:48 +0200
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-01 20:24:48 +0200
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 20:26:50 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-01 20:26:50 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-01 20:26:50 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-01 20:26:50 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-01 20:26:50 +0200
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-01 20:26:50 +0200
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 20:48:55 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.3ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/edit.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"tasks", :format=>nil, :id=>nil, :lecture_id=>#<Lecture id: 1, body: "bodyddddd", name: "New lecture">} missing required keys: [:id]):
+    1: <h2>Edit Lecture</h2>
+    2: 
+    3: <%= form_for @lecture, method: :patch, url: lecture_task_path(@lecture) do |f| %>
+    4:     <%= render @lecture, f: f %>
+    5: <% end %>
+  app/views/lectures/edit.html.erb:3:in `_app_views_lectures_edit_html_erb__1186804722353548108_70200891760240'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.2ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 20:49:18 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/_lecture.html.erb (16.9ms)
+  Rendered lectures/edit.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-01 20:49:18 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-01 20:49:18 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-01 20:49:18 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-01 20:49:18 +0200
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-01 20:49:18 +0200
+
+
+Started PATCH "/lectures/1" for 127.0.0.1 at 2016-03-01 20:57:39 +0200
+
+AbstractController::ActionNotFound (The action 'update' could not be found for LecturesController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.0ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 21:03:33 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 11.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 21:07:56 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/edit.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"tasks", :format=>nil, :id=>nil, :lecture_id=>#<Lecture id: 1, body: "bodyddddd", name: "New lecture">} missing required keys: [:id]):
+    1: <h2>Edit Lecture</h2>
+    2: 
+    3: <%= form_for @lecture, method: :patch, url: lecture_task_path(@lecture) do |f| %>
+    4:     <%= render @lecture, f: f %>
+    5: <% end %>
+  app/views/lectures/edit.html.erb:3:in `_app_views_lectures_edit_html_erb__1186804722353548108_70200880755780'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (41.7ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 21:08:36 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/edit.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"tasks", :format=>nil, :id=>nil, :lecture_id=>#<Lecture id: 1, body: "bodyddddd", name: "New lecture">} missing required keys: [:id]):
+    1: <h2>Edit Lecture</h2>
+    2: 
+    3: <%= form_for @lecture, method: :patch, url: lecture_task_path(@lecture) do |f| %>
+    4:     <%= render @lecture, f: f %>
+    5: <% end %>
+  app/views/lectures/edit.html.erb:3:in `_app_views_lectures_edit_html_erb__743579133426628756_51233900'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (47.8ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 21:08:58 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/_lecture.html.erb (14.2ms)
+  Rendered lectures/edit.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 234ms (Views: 232.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-01 21:08:58 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-01 21:08:58 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-01 21:08:58 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-01 21:08:58 +0200
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-03-01 21:08:58 +0200
+
+
+Started PATCH "/lectures/1" for 127.0.0.1 at 2016-03-01 21:09:04 +0200
+Processing by LecturesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8k+j7QQR8B202Fx43O5ZlrSm6v3FZ94kmOHbI7/p3MKwpqs3rA/Ad6NkVUQ4BCgIVGRMTFdI019DDXXgfRsoJA==", "lecture"=>{"name"=>"New lecture", "body"=>"update"}, "commit"=>"Update Lecture", "id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "lectures" SET "body" = ? WHERE "lectures"."id" = ?  [["body", "update"], ["id", 1]]
+  [1m[36m (232.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 239ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"lectures", :id=>nil} missing required keys: [:id]):
+  app/controllers/lectures_controller.rb:31:in `update'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.3ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 21:09:32 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 21:09:37 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/_lecture.html.erb (2.4ms)
+  Rendered lectures/edit.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/lectures/1" for 127.0.0.1 at 2016-03-01 21:09:39 +0200
+Processing by LecturesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UXFl4wCOZg9TVnN+BXg64cqi1O9tIbZQq0WgY0gnaxkTmG05qJBWZUTqekLhkkt/KmByXv8OuytwqQ6gitWf/w==", "lecture"=>{"name"=>"New lecture", "body"=>"update"}, "commit"=>"Update Lecture", "id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 4ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"lectures", :id=>nil} missing required keys: [:id]):
+  app/controllers/lectures_controller.rb:31:in `update'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.8ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.2ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 21:10:17 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/_lecture.html.erb (1.3ms)
+  Rendered lectures/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 22ms (Views: 16.2ms | ActiveRecord: 0.7ms)
+
+
+Started PATCH "/lectures/1" for 127.0.0.1 at 2016-03-01 21:10:19 +0200
+Processing by LecturesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IoO105q9lKlrau6VbynWjXZc+qwpnrZPgDagxU/ec3Fgar0JMqOkw3zW56mLw6cTlp5cHbuxuzRb2g4GjSyHlw==", "lecture"=>{"name"=>"New lecture", "body"=>"update"}, "commit"=>"Update Lecture", "id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/lectures/1
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 21:10:19 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/lectures/1" for 127.0.0.1 at 2016-03-01 21:16:55 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?[0m  [["lecture_id", 1]]
+  Rendered lectures/show.html.erb within layouts/application (29.6ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 21:23:59 +0200
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.4ms)[0m  SELECT "lectures".* FROM "lectures"
+  Rendered lectures/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/lectures/new" for 127.0.0.1 at 2016-03-01 21:24:01 +0200
+Processing by LecturesController#new as HTML
+  Rendered lectures/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/lectures" for 127.0.0.1 at 2016-03-01 21:24:05 +0200
+Processing by LecturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gHL5dvLV/KR9i5CNhRZB+WRGWSZv1XC6SG5WievO07fCm/GsWsvMzmo3mbFh/DBnhIT/l/36fcGTgvhKKTwnUQ==", "lecture"=>{"name"=>"dssf", "body"=>"fdd"}, "commit"=>"Create Lecture"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "lectures" ("name", "body") VALUES (?, ?)  [["name", "dssf"], ["body", "fdd"]]
+  [1m[36m (238.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/lectures
+Completed 302 Found in 243ms (ActiveRecord: 239.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 21:24:05 +0200
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"
+  Rendered lectures/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/2/tasks" for 127.0.0.1 at 2016-03-01 21:24:08 +0200
+Processing by TasksController#index as HTML
+  Parameters: {"lecture_id"=>"2"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?  [["lecture_id", 2]]
+  Rendered tasks/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 16.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2016-03-01 21:24:12 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLecture Load (0.8ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?  [["lecture_id", 2]]
+  Rendered lectures/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/lectures/2" for 127.0.0.1 at 2016-03-01 21:24:30 +0200
+Processing by LecturesController#destroy as */*
+  Parameters: {"name"=>"Oreo", "brand_id"=>4, "category_id"=>7, "price"=>1.9, "quantity"=>5, "id"=>"2", "lecture"=>{"name"=>"Oreo"}}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.0) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.0) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  actionpack (4.2.0) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:427:in `block in make_lambda'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:163:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:163:in `block in halting'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/tanyap/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.6ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 21:25:00 +0200
+Processing by LecturesController#index as HTML
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT "lectures".* FROM "lectures"[0m
+  Rendered lectures/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/lectures/1/edit" for 127.0.0.1 at 2016-03-01 21:30:35 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered lectures/_lecture.html.erb (1.6ms)
+  Rendered lectures/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 22ms (Views: 16.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/lectures/2/edit" for 127.0.0.1 at 2016-03-01 21:30:42 +0200
+Processing by LecturesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered lectures/_lecture.html.erb (1.3ms)
+  Rendered lectures/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/lectures/2" for 127.0.0.1 at 2016-03-01 21:30:44 +0200
+Processing by LecturesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9ZG3Uvnw3a1nSp5q5xUsEzaWsgEU2xZ1ZveF5TV+kUO3eL+IUe7tx3D2l1YD/12N1lQUsIb0Gw69Gysm94xlpQ==", "id"=>"2"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "lectures" WHERE "lectures"."id" = ?  [["id", 2]]
+  [1m[36m (77.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/lectures/2
+Completed 302 Found in 81ms (ActiveRecord: 77.8ms)
+
+
+Started GET "/lectures/2" for 127.0.0.1 at 2016-03-01 21:30:44 +0200
+Processing by LecturesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 2]]
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Lecture with 'id'=2):
+  app/controllers/lectures_controller.rb:21:in `show'
+
+
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.7ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.5ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanyap/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (37.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 21:30:58 +0200
+Processing by LecturesController#index as HTML
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT "lectures".* FROM "lectures"[0m
+  Rendered lectures/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-03-01 21:31:40 +0200
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.3ms)[0m  SELECT "lectures".* FROM "lectures"
+  Rendered lectures/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-12 20:10:06 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 20ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/lectures" for 127.0.0.1 at 2016-04-12 20:10:37 +0300
+Processing by LecturesController#index as HTML
+  [1m[35mLecture Load (0.2ms)[0m  SELECT "lectures".* FROM "lectures"
+  Rendered lectures/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 769ms (Views: 742.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-04-12 20:10:38 +0300
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-04-12 20:10:38 +0300
+
+
+Started GET "/assets/application.self-3a3c8b61bda630ee689740ce7cbd0dd8ea6fdd45e2c42eef4661ab38cf268afe.js?body=1" for 127.0.0.1 at 2016-04-12 20:10:38 +0300
+
+
+Started GET "/lectures/1/tasks" for 127.0.0.1 at 2016-04-12 20:12:06 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"lecture_id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ?  [["lecture_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 192ms (Views: 140.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:12:26 +0300
+
+ActionController::RoutingError (No route matches [GET] "/lectures/1/tasks/1/solutions"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanya/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/tanya/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/tanya/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (86.3ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:18:27 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (uninitialized constant SolutionsController):
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/tanya/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/tanya/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/tanya/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.0ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (43.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateSolutions (20160412172420)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "solutions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "body" text NOT NULL, "task_id" integer NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mCREATE  INDEX "index_solutions_on_task_id" ON "solutions" ("task_id")[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160412172420"]]
+  [1m[36m (203.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_solutions_on_task_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_solutions_on_task_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_tasks_on_lecture_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_tasks_on_lecture_id' AND type='index'
+
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:37:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.3ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+Completed 500 Internal Server Error in 57ms
+
+NoMethodError (undefined method `solutions' for #<Task:0x00000003998088>):
+  app/controllers/solutions_controller.rb:5:in `index'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (23.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.7ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:40:30 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35mSolution Load (0.2ms)[0m  SELECT "solutions".* FROM "solutions" WHERE "solutions"."task_id" = ?  [["task_id", 1]]
+  Rendered solutions/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 273ms (Views: 218.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions/new" for 127.0.0.1 at 2016-04-12 20:40:34 +0300
+Processing by SolutionsController#new as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  Rendered solutions/_solution.html.erb (13.9ms)
+  Rendered solutions/new.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 40ms (Views: 34.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:40:38 +0300
+Processing by SolutionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WHUbYOJkVAbOV5/240y/KBV8QpcZ/7YUvdlCNHWEyYppFvxNTcfloC1BnS72yW3HkZN6T+uJ/ngb3xu18DbaTQ==", "solution"=>{"body"=>"wjkfhwuihgewu"}, "commit"=>"Create Solution", "lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "solutions" ("body", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "wjkfhwuihgewu"], ["task_id", 1], ["created_at", "2016-04-12 17:40:38.012482"], ["updated_at", "2016-04-12 17:40:38.012482"]]
+  [1m[36m (75.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 84ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"index", :controller=>"solutions", :format=>nil, :lecture_id=>"1", :task_id=>nil} missing required keys: [:task_id]):
+  app/controllers/solutions_controller.rb:17:in `create'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.8ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.1ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:41:15 +0300
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.6ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35mSolution Load (0.2ms)[0m  SELECT "solutions".* FROM "solutions" WHERE "solutions"."task_id" = ?  [["task_id", 1]]
+  Rendered solutions/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 41ms (Views: 19.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions/new" for 127.0.0.1 at 2016-04-12 20:41:17 +0300
+Processing by SolutionsController#new as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  Rendered solutions/_solution.html.erb (0.9ms)
+  Rendered solutions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:41:19 +0300
+Processing by SolutionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YAvdy+AeOKHRBWRd/CiL2xlasDjem9uXP3VdSqD5zLdRaDrmT72JBzITZoXprVk0nbWI4Cztk/uZcwTLJUvfcA==", "solution"=>{"body"=>"ffsfssfs"}, "commit"=>"Create Solution", "lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "solutions" ("body", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "ffsfssfs"], ["task_id", 1], ["created_at", "2016-04-12 17:41:19.854042"], ["updated_at", "2016-04-12 17:41:19.854042"]]
+  [1m[36m (79.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 90ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"index", :controller=>"solutions", :format=>nil, :lecture_id=>"1", :task_id=>nil} missing required keys: [:task_id]):
+  app/controllers/solutions_controller.rb:17:in `create'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.4ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:41:29 +0300
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35mSolution Load (0.1ms)[0m  SELECT "solutions".* FROM "solutions" WHERE "solutions"."task_id" = ?  [["task_id", 1]]
+  Rendered solutions/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions/new" for 127.0.0.1 at 2016-04-12 20:42:10 +0300
+Processing by SolutionsController#new as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  Rendered solutions/_solution.html.erb (0.9ms)
+  Rendered solutions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 16.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:42:12 +0300
+Processing by SolutionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7ePlVf5PXYZSeH59awb3BoJLszAlGSK5IQGXwk8tZCncgAJ4UezsILFufKV+gyXpBqSL6NdvatWHB85Dyp937g==", "solution"=>{"body"=>"adadaf"}, "commit"=>"Create Solution", "lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.3ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "solutions" ("body", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "adadaf"], ["task_id", 1], ["created_at", "2016-04-12 17:42:12.427830"], ["updated_at", "2016-04-12 17:42:12.427830"]]
+  [1m[36m (91.5ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 107ms
+
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  app/controllers/solutions_controller.rb:17:in `create'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (38.4ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:42:43 +0300
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35mSolution Load (0.2ms)[0m  SELECT "solutions".* FROM "solutions" WHERE "solutions"."task_id" = ?  [["task_id", 1]]
+  Rendered solutions/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 46ms (Views: 22.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions/new" for 127.0.0.1 at 2016-04-12 20:42:46 +0300
+Processing by SolutionsController#new as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.2ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  Rendered solutions/_solution.html.erb (1.1ms)
+  Rendered solutions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 19ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:42:53 +0300
+Processing by SolutionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6yoBJWvSu48R1SXPhgUipr1inZCOh5UXA6eylo/DaNHaSeYIxHEKKfLDJxeTgPBJOY2lSHzx3XuloesXCnF7Fg==", "solution"=>{"body"=>"asasassaas"}, "commit"=>"Create Solution", "lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "solutions" ("body", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "asasassaas"], ["task_id", 1], ["created_at", "2016-04-12 17:42:53.503687"], ["updated_at", "2016-04-12 17:42:53.503687"]]
+  [1m[36m (86.6ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 94ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"index", :controller=>"solutions", :format=>nil, :lecture_id=>"1", :task_id=>nil} missing required keys: [:task_id]):
+  app/controllers/solutions_controller.rb:17:in `create'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.9ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:44:28 +0300
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+
+SyntaxError (/home/tanya/Linux/HackBulgaria/course-master/app/models/lecture.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  has_many :solutions through :tasks
+                             ^):
+  app/models/lecture.rb:3: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  app/controllers/solutions_controller.rb:49:in `set_task'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.9ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:45:14 +0300
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.1ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35mSolution Load (0.2ms)[0m  SELECT "solutions".* FROM "solutions" WHERE "solutions"."task_id" = ?  [["task_id", 1]]
+  Rendered solutions/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 44ms (Views: 21.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions/new" for 127.0.0.1 at 2016-04-12 20:45:15 +0300
+Processing by SolutionsController#new as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  Rendered solutions/_solution.html.erb (0.9ms)
+  Rendered solutions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:45:18 +0300
+Processing by SolutionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f69kv7urjp08amw4FXR1jp1EQd83IB0GFjD2DnwkvelOzIOSFAg/O998buAA8adhGat5B8VWVWqwNq+P+ZauLg==", "solution"=>{"body"=>"assasas"}, "commit"=>"Create Solution", "lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "solutions" ("body", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "assasas"], ["task_id", 1], ["created_at", "2016-04-12 17:45:18.389575"], ["updated_at", "2016-04-12 17:45:18.389575"]]
+  [1m[36m (98.2ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 109ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"index", :controller=>"solutions", :format=>nil, :lecture_id=>"1", :task_id=>nil} missing required keys: [:task_id]):
+  app/controllers/solutions_controller.rb:17:in `create'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (45.0ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:45:42 +0300
+Processing by SolutionsController#index as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[35mLecture Load (0.2ms)[0m  SELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1[0m  [["lecture_id", 1], ["id", 1]]
+  [1m[35mSolution Load (0.2ms)[0m  SELECT "solutions".* FROM "solutions" WHERE "solutions"."task_id" = ?  [["task_id", 1]]
+  Rendered solutions/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 58ms (Views: 26.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/lectures/1/tasks/1/solutions/new" for 127.0.0.1 at 2016-04-12 20:45:44 +0300
+Processing by SolutionsController#new as HTML
+  Parameters: {"lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  Rendered solutions/_solution.html.erb (0.9ms)
+  Rendered solutions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/lectures/1/tasks/1/solutions" for 127.0.0.1 at 2016-04-12 20:45:47 +0300
+Processing by SolutionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UnI9vK0cf18e4Le+USlREzrXKPZ0iPQMSikgms6Ljz5jEdqRAr/O+f32tWZErIP8vjgQLob+vGDsL3kbSzmc+Q==", "solution"=>{"body"=>"qqqwwwwqqqw"}, "commit"=>"Create Solution", "lecture_id"=>"1", "task_id"=>"1"}
+  [1m[36mLecture Load (0.1ms)[0m  [1mSELECT  "lectures".* FROM "lectures" WHERE "lectures"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.1ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."lecture_id" = ? AND "tasks"."id" = ? LIMIT 1  [["lecture_id", 1], ["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "solutions" ("body", "task_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "qqqwwwwqqqw"], ["task_id", 1], ["created_at", "2016-04-12 17:45:47.962266"], ["updated_at", "2016-04-12 17:45:47.962266"]]
+  [1m[36m (91.4ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 100ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"index", :controller=>"solutions", :format=>nil, :lecture_id=>"1", :task_id=>nil} missing required keys: [:task_id]):
+  app/controllers/solutions_controller.rb:17:in `create'
+
+
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.1ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (20.3ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/tanya/.rvm/gems/ruby-2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.1ms)

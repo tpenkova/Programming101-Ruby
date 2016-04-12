@@ -1,0 +1,8 @@
+Welcome<% if is_signed_in? %>, <%= current_user.first_name %> (<%= current_user.email %>)<% end %>! <br />
+
+<% if is_signed_in? %>
+- <%= link_to "Logout", signout_path %>
+<% else %>
+- <%= link_to "Login",  signin_path %> <br />
+- <%= link_to "Register", signup_path %> <br />
+<% end %>
